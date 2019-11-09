@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#3D86FC"
     android:orientation="horizontal"
-    tools:context="com.rd.pageindicatorview.home.HomeActivity">
+    tools:context="com.pageindicatorview.home.HomeActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -23,7 +23,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar" />
 
-    <com.rd.PageIndicatorView
+    <com.pageindicatorview.PageIndicatorView
         android:id="@+id/pageIndicatorView"
         app:piv_viewPager="@id/viewPager"
         android:layout_width="wrap_content"

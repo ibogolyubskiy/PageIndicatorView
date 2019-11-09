@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rd.pageindicatorview.sample">
+    package="com.pageindicatorview.sample">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Base">
         <activity
-            android:name="com.rd.pageindicatorview.home.HomeActivity"
+            android:name="com.pageindicatorview.home.HomeActivity"
             android:screenOrientation="sensorPortrait">
 
             <intent-filter>
@@ -19,7 +19,7 @@
 
         </activity>
 
-        <activity android:name="com.rd.pageindicatorview.customize.CustomizeActivity" />
+        <activity android:name="com.pageindicatorview.customize.CustomizeActivity" />
     </application>
 
 </manifest>
